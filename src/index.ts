@@ -1,2 +1,3 @@
-// eslint-disable-next-line no-console
-console.log('hi!');
+export const main = (): string => "hello world!";
+
+console.log(main());
